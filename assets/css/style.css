@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    background-color: darkgoldenrod;
+}
+
+.personalDetailsWrapper {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    border: solid black 2px;
+    background-color: chocolate;
+}
+
+
+.personalPicture {
+    /* flex-grow: 1; */
+    border: solid black 2px;
+    background-color: darkmagenta;
+    height: 150px;
+    width: 150px;
+}
+
+.nameTextWrapper {
+    flex-grow: 5;
+    border: solid black 2px;
+    background-color: dodgerblue;
+}
+
+.personalInfo {
+    flex-grow: 2;
+    border: solid black 2px;
+    background-color: darkred;
+}
+
+.personalLinks {
+    flex-grow: 1;
+    border: solid black 2px;
+    background-color: darkslategrey;
+    height: 40px;
+}
