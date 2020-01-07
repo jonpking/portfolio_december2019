@@ -7,18 +7,25 @@ body {
     background-color: bisque;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    border: solid black 2px;
-    background-color: darkgoldenrod;
+.content {
+    border: solid white 2px;
+    background-color: blue;
+    flex-grow: 1;
 }
 
-.personalDetailsWrapper {
+.pageContentWrapper {
+    border: solid purple 2px;
+    background-color: gray;
+    flex: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 0 2.5%;
+}
+
+.header {
     display: flex;
-    flex-direction: row;
     border: solid black 2px;
-    background-color: chocolate;
+    background-color: darkgoldenrod;
 }
 
 
