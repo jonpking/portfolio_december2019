@@ -15,7 +15,6 @@ body {
 }
 
 .personalDetailsWrapper {
-    flex-grow: 2;
     display: flex;
     flex-direction: row;
     border: solid black 2px;
@@ -24,7 +23,6 @@ body {
 
 
 .personalPicture {
-    /* flex-grow: 1; */
     border: solid black 2px;
     background-color: darkmagenta;
     height: 150px;
@@ -37,8 +35,16 @@ body {
     background-color: dodgerblue;
 }
 
+.nameText {
+    background-color: yellow;
+}
+
+.nameSubText {
+    background-color: chartreuse;
+}
+
 .personalInfo {
-    flex-grow: 2;
+    flex-grow: 3;
     border: solid black 2px;
     background-color: darkred;
 }
